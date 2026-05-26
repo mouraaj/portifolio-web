@@ -1,1 +1,88 @@
-﻿
+﻿/* FUNDO DA PÁGINA */
+.pagina-contato {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #f9fafb;
+}
+
+/* 🔥 CARD PRINCIPAL */
+.card-contato {
+    background: #ffffff;
+    border-radius: 25px;
+    padding: 2.5rem;
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(96, 165, 250, 0.2);
+}
+
+    /* 🔥 TÍTULO */
+    .card-contato h1 {
+        font-family: "Georgia", serif;
+        color: #60a5fa;
+        margin-bottom: 1rem;
+    }
+
+/* DESCRIÇÃO */
+.descricao-contato {
+    color: #1e3a8a;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+}
+
+/* 🔥 CAIXAS */
+.caixa-contato {
+    background: #f1f5f9;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+}
+
+    /* HOVER */
+    .caixa-contato:hover {
+        background: #e0f2fe;
+    }
+
+    /* LABEL */
+    .caixa-contato span {
+        font-size: 0.8rem;
+        color: #64748b;
+        display: block;
+    }
+
+    /* VALOR */
+    .caixa-contato p {
+        font-weight: bold;
+        color: #1e3a8a;
+        margin: 0.3rem 0 0;
+    }
+
+/* 🔥 BOTÃO */
+.botao-email {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.9rem 1.5rem;
+    background: linear-gradient(135deg, #60a5fa, #f9a8d4);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    /* HOVER BOTÃO */
+    .botao-email:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 25px rgba(96, 165, 250, 0.3);
+    }
+
+/* RESPONSIVO */
+@media (max-width: 500px) {
+    .card-contato {
+        padding: 2rem 1.5rem;
+    }
+}
